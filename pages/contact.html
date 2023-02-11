@@ -1,0 +1,278 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Profile | Mimoh</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 0;
+		}
+		
+		.td_bg {
+			background: url(../images/contact_image.jpg);
+			background-size: cover;
+			background-position: bottom;
+		}
+		
+		.tbl_dimen {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			border-spacing: 0;
+		}
+		
+		table {
+			border-spacing: 0;
+		}
+		
+		.h1_txt {
+			color: #fff;
+			font-weight: 500;
+			font-size: 4em;
+			margin-left: 50px;
+			width: 320px;
+			border-bottom-style: solid;
+			border-bottom-width: 5px;
+			border-bottom-color: #00B6F9;
+		}
+		
+		.profile_content {
+			background: #f5f5f5;
+			background-size: cover;
+		}
+		
+		.skillicon {
+			background: #fff;
+			border-radius: 50%;
+			color: #00B6F9;
+			font-size: 36px;
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+		}
+		
+		.ratioproject {
+			background: url(../images/facts-bg.jpg);
+			background-size: cover;
+			padding: 50px 15px;
+			text-align: center;
+		}
+		
+		.skilltab td i:hover {
+			box-shadow: 0 0 0 16px rgba(255, 255, 255, 0.15), 0 0 0 0 rgba(255, 255, 255, 0.3);
+		}
+		
+		.close-btn {
+			background: url(../images/close.png);
+			z-index: 1000;
+			cursor: pointer;
+			width: 40px;
+			height: 40px;
+			position: fixed;
+			right: 3%;
+			top: 30px;
+			background-size: cover;
+		}
+		
+		.filterimg td a {
+			text-decoration: none;
+			padding: 15px;
+			border: 1px solid #00B6F9;
+			color: #00B6F9;
+		}
+		
+		.filterimg td a:hover {
+			color: #fff;
+			background: #00B6F9;
+		}
+		
+		.filterimg td li {
+			display: inline;
+		}
+		
+		.filterimg td a {
+			margin: 2px;
+		}
+		
+		.contact-form input,
+		.contact-form textarea {
+			border: 1px solid #00B6F9;
+			border-radius: 2px;
+			height: 40px;
+			margin: 10px 0;
+			padding: 5px 10px;
+			background: #f5f5f5;
+			width: 90%;
+		}
+		
+		.contactsocial li {
+			display: inline;
+		}
+		
+		.contactsocial li a {
+			background: #343333 none repeat scroll 0 0;
+			padding: 0;
+			line-height: 50px;
+			border-radius: 50%;
+			text-decoration: none;
+			color: #fff;
+			width: 50px;
+			height: 50px;
+			font-size: 25px;
+			margin: 0 5px;
+		}
+		
+		.contactsocial li a:hover {
+			color: #00B6F9;
+		}
+	</style>
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+	<div>
+		<a class="close-btn" href="../index.html"></a>
+	</div>
+	<table class="tbl_dimen" border="0">
+		<tr class="tr_def">
+			<td class="td_bg" width="41%" style="vertical-align:bottom;position: fixed;height: 100%;">
+				<h1 class="h1_txt" style="margin-top:80%">CO<span style="color:#00B6F9;opactiy:0.9">N</span>TACT</h1> </td>
+			<td width="59%" valign="top">
+				<table class="profile_content" border="0" width="100%">
+					<tr>
+						<td style="text-align:center;">
+							<h2 style="font-size: 2.7em;font-weight:500;margin-top: 55px;margin-bottom:65px;">SAY HELLO!</h2> </td>
+					</tr>
+					<tr>
+						<td style="text-align:center;">
+							<form class="contact-form" name="contact" onsubmit="return validateForm();">
+								<table width="100%">
+									<tr class="filterimg">
+										<td valign="top">
+											<input type="text" name="Name" onkeypress='return validatename(event);' placeholder="Your Name*"> </td>
+									</tr>
+									<tr class="filterimg">
+										<td valign="top">
+											<input type="email" name="Email" placeholder="Your Email*" title="Enter Email ex. john@gmail.com"> </td>
+									</tr>
+									<tr class="filterimg">
+										<td valign="top">
+											<input type="text" name="Number" maxlength="10" min="10" onkeypress="return isNumberKey(event)" placeholder="Your Number*" pattern="[1-9]{1}[0-9]{9}" title="Enter 10 digit mobile number"> </td>
+									</tr>
+									<tr class="filterimg">
+										<td valign="top">
+											<textarea cols="2" style="height:300px;" name="Message" placeholder="Your message*"> </textarea>
+										</td>
+									</tr>
+									<tr class="filterimg">
+										<td valign="top" align="left">
+											<input class="sbmt" style="width:100px;margin-left:35px;color:#00B6F9" type="submit" value="SEND" /> </td>
+									</tr>
+								</table>
+							</form>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.25792109972!2d72.4396558202878!3d23.020181762942467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C+Gujarat!5e0!3m2!1sen!2sin!4v1494500606271" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</td>
+					</tr>
+					<tr style="margin-top:25px;">
+						<td colspan="2" align="center">
+							<table style="background:#f5f5f5;text-align:center" width="100%" style="text-align:center">
+								<tr>
+									<td style="padding:30px 0;" colspan="3">
+										<h2 style="font-size:2.1em;font-weight:200">CONTACT DETAILS</h2> </td>
+								</tr>
+								<tr>
+									<td style="padding:30px 0;"> <i style="font-size:2em" class="fa fa-map-marker"></i>
+										<h4 style="font-weight:200">Maninagar, Ahmedabad</h4> </td>
+									<td style="padding:30px 0;"> <i style="font-size:2em" class="fa fa-phone"></i>
+										<h4 style="font-weight:200">+91 840 164 4801</h4> </td>
+									<td style="padding:30px 0;"> <i style="font-size:2em" class="fa fa-fax"></i>
+										<h4 style="font-weight:200">+91 972 327 8272</h4> </td>
+								</tr>
+								<tr>
+									<td style="padding:30px 0;"> <i style="font-size:2em" class="fa fa-phone"></i>
+										<h4 style="font-weight:200">+91 972 327 8272</h4> </td>
+									<td style="padding:30px 0;"> <i style="font-size:2em" class="fa fa-envelope"></i>
+										<h4 style="font-weight:200">solankimimoh@gmail.com</h4> </td>
+									<td style="padding:30px 0;"> <i style="font-size:2em" class="fa fa-globe"></i>
+										<h4 style="font-weight:200">solankimimoh.com</h4> </td>
+								</tr>
+								<tr>
+									<td style="padding:30px 0;" colspan="3">
+										<ul class="contactsocial">
+											<li>
+												<a href="https://www.facebook.com/Shiboo.mimoh.solanki" class="fa fa-facebook"></a>
+											</li>
+											<li>
+												<a href="https://in.pinterest.com/solankimimoh/" class="fa fa-pinterest"></a>
+											</li>
+											<li>
+												<a href="https://www.instagram.com/solanki_mimoh/" class="fa fa-instagram"></a>
+											</li>
+											<li>
+												<a href="https://twitter.com/MimohSolanki" class="fa fa-twitter"></a>
+											</li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr style="background:#00B6F9;color:#fff;">
+						<td>
+							<table width="100%">
+								<tr>
+									<td>
+										<h4 style="margin:9px;font-weight:400">Solanki Mimoh</h4> </td>
+									<td style="text-align:right">
+										<h4 style="margin:9px;font-weight:400">Copyright © 2017 All right reserved</h4> </td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<script>
+		function validateForm() {
+			var fields = ["Name", "Email", "Number", "Message"]
+			var i, l = fields.length;
+			var fieldname;
+			for (i = 0; i < l; i++) {
+				fieldname = fields[i];
+				if (document.forms["contact"][fieldname].value === " " || document.forms["contact"][fieldname].value === "") {
+					alert(fieldname + " can not be empty");
+					return false;
+				}
+			}
+			return true;
+		}
+	</script>
+	<script>
+		function isNumberKey(evt) {
+			var charCode = (evt.which) ? evt.which : event.keyCode
+			if (charCode > 31 && (charCode < 48 || charCode > 57)) return false;
+			return true;
+		}
+	</script>
+	<script>
+		function validatename(event) {
+			var key = window.event ? event.keyCode : event.which;
+			if (event.keyCode == 8 || event.keyCode == 46 || event.keyCode == 37 || event.keyCode == 39) {
+				return true;
+			}
+			else if (key < 48 || key > 57) {
+				return true;
+			}
+			else return false;
+		};
+	</script>
+</body>
+
+</html>
