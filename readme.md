@@ -12,10 +12,10 @@ Full Stack Developer | PHP & Laravel Expert | React, Node, Vue, HTML, CSS, and J
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/solankimimoh?style=social">
     
   </a>
-  <a href="https://twitter.com/solankimimoh">
+  <a href="https://twitter.com/mimohsolanki">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/solankimimoh?style=social">
   </a>
-  <a href="https://linkedin.com/in/solankimimoh">
+  <a href="https://linkedin.com/in/mimohsolanki">
     <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-blue?style=social&logo=linkedin">
   </a>
   <a href="https://github.com/Solankimimoh">
@@ -37,7 +37,7 @@ I'm a full stack developer with a passion for creating engaging and high-perform
 ## Contact
 
 - 📧 E-mail: solankimimoh@gmail.com
-- 💬 LinkedIn: [Mimoh Solanki](https://linkedin.com/in/solankimimoh)
-- 🐦 Twitter: [@solankimimoh](https://twitter.com/solankimimoh)
+- 💬 LinkedIn: [Mimoh Solanki](https://linkedin.com/in/mimohsolanki)
+- 🐦 Twitter: [@solankimimoh](https://twitter.com/mimohsolanki)
 - 💻 GitHub: [Mimoh Solanki](https://github.com/solankimimoh)
 
