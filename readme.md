@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://media.licdn.com/dms/image/C5616AQGClnBNjoSyqg/profile-displaybackgroundimage-shrink_350_1400/0/1664245462877?e=1681344000&v=beta&t=K4eXkNBeJo9JbZgaF8N495HoHszxrTfZKzqaSEBO-IM"  alt="Banner Image">
 </p>
-<h1 align="Center">Mimoh Solanki </h1>
 <p align="center">
 Full Stack Developer | PHP & Laravel Expert | React, Node, Vue, HTML, CSS, and JavaScript Enthusiast
 </p>
