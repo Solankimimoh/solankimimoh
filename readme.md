@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://avatars2.githubusercontent.com/u/11669473?s=460&u=106955a5848f45d1d9b91b2e3e3c2377bcee6aeb&v=4" width="200" alt="Profile Image">
+  <img src="https://media.licdn.com/dms/image/C5616AQGClnBNjoSyqg/profile-displaybackgroundimage-shrink_350_1400/0/1664245462877?e=1681344000&v=beta&t=K4eXkNBeJo9JbZgaF8N495HoHszxrTfZKzqaSEBO-IM"  alt="Banner Image">
 </p>
 <h1 align="Center">Mimoh Solanki </h1>
 <p align="center">
