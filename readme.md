@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://i.ibb.co/R32vmLj/1664245462877.jpg"  alt="Banner Image">
+  <img src="1664245462877.jpg"  alt="Banner Image">
 </p>
 <p align="center">
 Full Stack Developer | PHP & Laravel Expert | React, Node, Vue, HTML, CSS, and JavaScript Enthusiast
