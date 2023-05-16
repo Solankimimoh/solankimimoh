@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/C5616AQGClnBNjoSyqg/profile-displaybackgroundimage-shrink_350_1400/0/1664245462877?e=1681344000&v=beta&t=K4eXkNBeJo9JbZgaF8N495HoHszxrTfZKzqaSEBO-IM"  alt="Banner Image">
+  <img src="https://i.ibb.co/R32vmLj/1664245462877.jpg"  alt="Banner Image">
 </p>
 <p align="center">
 Full Stack Developer | PHP & Laravel Expert | React, Node, Vue, HTML, CSS, and JavaScript Enthusiast
