@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="1664245462877.jpg"  alt="Banner Image">
+  <img src="https://raw.githubusercontent.com/Solankimimoh/solankimimoh/main/1664245462877.jpeg"  alt="Banner Image">
 </p>
 <p align="center">
 Full Stack Developer | PHP & Laravel Expert | React, Node, Vue, HTML, CSS, and JavaScript Enthusiast
